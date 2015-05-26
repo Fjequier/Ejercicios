@@ -1,0 +1,18 @@
+
+package ejercisiomultiplicacion;
+import java.util.Scanner;
+public class EjercisioMultiplicacion {
+    public static void main(String[] args) {
+        
+        int r;
+        Scanner asd=new Scanner(System.in);
+        System.out.println("Ingrese numero");
+        int numero = asd.nextInt();
+        for(int i=1;i<=12;i++){
+            r= numero*i;
+            System.out.println(numero+"x"+i+"="+r);
+            
+        }
+    }
+    
+}
